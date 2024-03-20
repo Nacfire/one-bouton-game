@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Ecrant_titre.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Niveau_1.unity
+    guid: f170da79337074749b008ff943ff8935
+  - enabled: 1
+    path: Assets/Scenes/WIN.unity
+    guid: 4a17fa951a1b1694ea81957580dca6ab
+  - enabled: 1
+    path: Assets/Scenes/DEAT.unity
+    guid: 2b76d72692e3e54448ccdc3b19f0e85b
+  - enabled: 1
+    path: Assets/Scenes/START.unity
+    guid: 56dc7626674b4ed4187b85c324888dce
   m_configObjects: {}
