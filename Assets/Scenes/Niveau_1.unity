@@ -1226,7 +1226,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: fa53012336addff4a81604aa36a149db, type: 2}
+      objectReference: {fileID: 9100000, guid: 32b11a01a3331e34ea41c1172f90bb1d, type: 2}
     - target: {fileID: 2371907557469931007, guid: 1c000ee22cba0794f9392c508f435416,
         type: 3}
       propertyPath: m_RootOrder
@@ -2630,7 +2630,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: fa53012336addff4a81604aa36a149db, type: 2}
+      objectReference: {fileID: 9100000, guid: 51a2298a79a182a44ad301c38d57c6b9, type: 2}
     - target: {fileID: 2371907557469931007, guid: 1c000ee22cba0794f9392c508f435416,
         type: 3}
       propertyPath: m_RootOrder
