@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 3605519605208681788}
   m_Layer: 0
   m_Name: Penemie
-  m_TagString: Untagged
+  m_TagString: Enemie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
