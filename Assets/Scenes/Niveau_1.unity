@@ -251,6 +251,11 @@ PrefabInstance:
       propertyPath: looping
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7945366758800774970, guid: c2e9b42673d9907469f3905979365d95,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8764387913176452438, guid: c2e9b42673d9907469f3905979365d95,
         type: 3}
       propertyPath: direction.y
@@ -264,12 +269,12 @@ PrefabInstance:
     - target: {fileID: 8764387913176452438, guid: c2e9b42673d9907469f3905979365d95,
         type: 3}
       propertyPath: initialSpeed
-      value: 0.9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8764387913176452438, guid: c2e9b42673d9907469f3905979365d95,
         type: 3}
       propertyPath: accelerationFactor
-      value: 1.001
+      value: 1.003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1201,7 +1206,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Penemie (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3401094171467342302, guid: 1c000ee22cba0794f9392c508f435416, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2590,7 +2596,7 @@ PrefabInstance:
     - target: {fileID: 2371907557469931007, guid: 1c000ee22cba0794f9392c508f435416,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.594882
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 2371907557469931007, guid: 1c000ee22cba0794f9392c508f435416,
         type: 3}
