@@ -3677,12 +3677,12 @@ PrefabInstance:
     - target: {fileID: 8764387913176452438, guid: c2e9b42673d9907469f3905979365d95,
         type: 3}
       propertyPath: initialSpeed
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8764387913176452438, guid: c2e9b42673d9907469f3905979365d95,
         type: 3}
       propertyPath: accelerationFactor
-      value: 1.002
+      value: 1.005
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8867462831962622837, guid: c2e9b42673d9907469f3905979365d95, type: 3}
