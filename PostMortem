@@ -72,7 +72,16 @@ Lenny
 Lenny
 Quand on appuie sur espace sur l'ecran de mort, le niveau se relance (plus pratique)
 
+04/04/2024
+Lenny
+-petit temps avant de mettre l'écran de mort à la mort du joueur
+-particules sur les portes du niveau 2 quand elles se cassent
+-Petit temps avant changement de scène sur la mort du player
+
 Resumée
 ENZO
 l'idée et mon level design est venue assé rapidement. les dificultés sont arriver quand j'ai du codé mais je me suis debroiler.
-Les plus dure etais de trouver et regler les bugs. le projet cleve the cat m'a beaucoup.
+Les plus dure etais de trouver et regler les bugs. le projet cleve the cat m'a beaucoup aidé.
+
+Lenny
+J'avais déjà une idée claire du concept et du niveau que je voulais faire. Le problème a été de faire correspondre les branches et certains colliders posaient problème. Parfois il fallait refaire certaines animations après un merge. Mais au final j'ai compris beaucoup mieux le visaulscripting et je suis plutôt content du résultat.
