@@ -8,7 +8,7 @@ Enzo
 
 17/03/2024
 Enzo
-- Blockout niveau 1 non animé fini
+- Blockout niveau 1 non animé fini 
 - completer folder et scenne nececert
 
 19/03/2024
@@ -20,3 +20,48 @@ Enzo
 Enzo
 - feed back mort fait et clean
 - vitesse retravailer
+
+17/03/2024
+Lenny
+-Blocking
+-premières animations
+-script du déplacement du player
+
+20/03/2024
+Lenny
+-Toutes les animations du niveau 2
+-intégration des bouttons, Level 1, Level 2, Quit pour l'écran titre
+
+22/03/2024
+Lenny
+-mis les animations sur chaque gameobject correspondant
+-les boutons détruisent les blocs auxquels ils sont reliés, visualscript
+-merge level_2; merge du niveau 2 et réparation des animations
+
+23/03/2024
+Lenny
+-IsLevel1 modifier; Au lancement du niveau 2, la variable IsLevel1 est set sur false
+-nouveau material pour les boutons de l'écran titre et tous fonctionnels
+-ecran de mort fonctionnel
+-retour à l'ecran titre et recommencer le niveau
+-Ecran de victoire fonctionnel
+-material pour les blocs
+-Changement de la position de la caméra pour l'ecran de mort
+
+23/03/2024
+Lenny
+-repacing du niveau 2 réglage des bugs de spawnkill au niveau 2
+-modifications sur les animations du niveau 2
+-texture sur le background
+-caméra reculé pour plus de visibilité
+
+28/03/2024
+Lenny
+-trail du joueur
+
+29/03/2024
+Lenny
+Quand on appuie sur espace sur l'ecran de mort, le niveau se relance (plus pratique)
+
+
+
