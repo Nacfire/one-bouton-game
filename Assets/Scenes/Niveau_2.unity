@@ -458,6 +458,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 886334724}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &125014408
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1956940881369018495, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_Name
+      value: DoorParticle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.704607
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 211.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d99b160f98bfaf44ba7cb4f8417cd4f7, type: 3}
 --- !u!1 &126748167
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,18 +853,24 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DoorToDestroy","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ParticleToPlay","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 732141944}
+    - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 1172997419}
     - target: {fileID: 4889533999256908004, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: objectToDestroy
@@ -1173,18 +1252,24 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DoorToDestroy","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ParticleToPlay","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 822684383}
+    - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 1044041258}
     - target: {fileID: 2858422649612969970, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: DoorToDestroy
@@ -1916,18 +2001,24 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DoorToDestroy","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ParticleToPlay","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1124298577}
+    - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 1042148814}
     - target: {fileID: 4889533999256908004, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: objectToDestroy
@@ -2010,18 +2101,24 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DoorToDestroy","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ParticleToPlay","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1124298577}
+    - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 1042148814}
     - target: {fileID: 4889533999256908004, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: objectToDestroy
@@ -2159,6 +2256,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &781054128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1956940881369018495, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 125014408}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &810631084
 GameObject:
   m_ObjectHideFlags: 0
@@ -2510,6 +2613,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1097823642}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &896129092
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1956940881369018495, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_Name
+      value: DoorParticle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.704607
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 32.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d99b160f98bfaf44ba7cb4f8417cd4f7, type: 3}
 --- !u!1 &896438912
 GameObject:
   m_ObjectHideFlags: 0
@@ -2576,18 +2752,24 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DoorToDestroy","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ParticleToPlay","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1124298577}
+    - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 1042148814}
     - target: {fileID: 4889533999256908004, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: objectToDestroy
@@ -2871,27 +3053,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1063000970}
   m_PrefabAsset: {fileID: 0}
---- !u!135 &963485244
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963485241}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!96 &963485245
 TrailRenderer:
   serializedVersion: 3
@@ -2935,7 +3096,7 @@ TrailRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Time: 5
-  m_PreviewTimeScale: 1
+  m_PreviewTimeScale: 0
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -3005,6 +3166,39 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &963485249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963485241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9f994657c3b4c404a84eda81f397cd24, type: 2}
+--- !u!114 &963485250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963485241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Collider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1890535289}
 --- !u!1001 &990590967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3111,6 +3305,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 641441421}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1023778999
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1956940881369018495, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_Name
+      value: DoorParticle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.704607
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 88.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d99b160f98bfaf44ba7cb4f8417cd4f7, type: 3}
 --- !u!1001 &1024272016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3257,6 +3524,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0c535a0413a9584d8f8eb842ebb59f8, type: 3}
+--- !u!1 &1042148814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1956940881369018495, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1023778999}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1044041258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1956940881369018495, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 896129092}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1063000970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3350,6 +3629,41 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7945366758800774970, guid: c2e9b42673d9907469f3905979365d95,
+        type: 3}
+      propertyPath: VelocityModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7945366758800774970, guid: c2e9b42673d9907469f3905979365d95,
+        type: 3}
+      propertyPath: ClampVelocityModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7945366758800774970, guid: c2e9b42673d9907469f3905979365d95,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7945366758800774970, guid: c2e9b42673d9907469f3905979365d95,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7945366758800774970, guid: c2e9b42673d9907469f3905979365d95,
+        type: 3}
+      propertyPath: VelocityModule.speedModifier.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7945366758800774970, guid: c2e9b42673d9907469f3905979365d95,
+        type: 3}
+      propertyPath: VelocityModule.speedModifier.maxCurve.m_Curve.Array.data[1].time
+      value: 0.2190788
+      objectReference: {fileID: 0}
+    - target: {fileID: 7945366758800774970, guid: c2e9b42673d9907469f3905979365d95,
+        type: 3}
+      propertyPath: VelocityModule.speedModifier.maxCurve.m_Curve.Array.data[1].value
+      value: 0.13513619
+      objectReference: {fileID: 0}
     - target: {fileID: 8764387913176452438, guid: c2e9b42673d9907469f3905979365d95,
         type: 3}
       propertyPath: direction.y
@@ -3363,12 +3677,12 @@ PrefabInstance:
     - target: {fileID: 8764387913176452438, guid: c2e9b42673d9907469f3905979365d95,
         type: 3}
       propertyPath: initialSpeed
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8764387913176452438, guid: c2e9b42673d9907469f3905979365d95,
         type: 3}
       propertyPath: accelerationFactor
-      value: 1.002
+      value: 1.005
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8867462831962622837, guid: c2e9b42673d9907469f3905979365d95, type: 3}
@@ -3379,11 +3693,19 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7125433529095758649, guid: c2e9b42673d9907469f3905979365d95,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 963485244}
+      addedObject: {fileID: 963485245}
     - targetCorrespondingSourceObject: {fileID: 7125433529095758649, guid: c2e9b42673d9907469f3905979365d95,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 963485245}
+      addedObject: {fileID: 963485250}
+    - targetCorrespondingSourceObject: {fileID: 7125433529095758649, guid: c2e9b42673d9907469f3905979365d95,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 963485249}
+    - targetCorrespondingSourceObject: {fileID: 1283022939172674630, guid: c2e9b42673d9907469f3905979365d95,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1890535293}
   m_SourcePrefab: {fileID: 100100000, guid: c2e9b42673d9907469f3905979365d95, type: 3}
 --- !u!1001 &1097823642
 PrefabInstance:
@@ -3720,6 +4042,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0c535a0413a9584d8f8eb842ebb59f8, type: 3}
+--- !u!1 &1172997419 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1956940881369018495, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1767005141}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1198872542
 GameObject:
   m_ObjectHideFlags: 0
@@ -4623,6 +4951,79 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1767005141
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1956940881369018495, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_Name
+      value: DoorParticle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.704607
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 68.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513905514836432360, guid: d99b160f98bfaf44ba7cb4f8417cd4f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d99b160f98bfaf44ba7cb4f8417cd4f7, type: 3}
 --- !u!1001 &1808704477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5059,6 +5460,33 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &1890535289 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1283022939172674630, guid: c2e9b42673d9907469f3905979365d95,
+    type: 3}
+  m_PrefabInstance: {fileID: 1063000970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &1890535293
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890535289}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1969448189
 GameObject:
   m_ObjectHideFlags: 0
@@ -5237,18 +5665,24 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DoorToDestroy","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ParticleToPlay","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1498859734}
+    - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 781054128}
     - target: {fileID: 2008288176830321172, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: m_LocalScale.y
@@ -5346,18 +5780,24 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DoorToDestroy","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ParticleToPlay","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1124298577}
+    - target: {fileID: 1706714942982577784, guid: 340f9c1ee5d993e458c1308b33d435ad,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 1042148814}
     - target: {fileID: 4889533999256908004, guid: 340f9c1ee5d993e458c1308b33d435ad,
         type: 3}
       propertyPath: objectToDestroy
